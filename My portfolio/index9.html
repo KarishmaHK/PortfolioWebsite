@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="ContactForm.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="portfolio-images/favicon.ico.png">
+
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+        body,
+        html {
+            background-color: #000000;
+            margin: 0px;
+
+        }
+
+        div {
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .heading1 {
+            padding-top: 120px;
+            margin-bottom: 150 px;
+            padding-bottom: 50px;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            color: #000000;
+            font-size: 40px;
+        }
+
+        .heading3 {
+            margin-bottom: 150 px;
+
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            color: #000000;
+
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <!--NAVBAR START-->
+
+    <nav class="navbar navbar-expand-sm bg-black navbar-dark fixed-top">
+
+        <div class="container-fluid px-5 py-2">
+            <a class="navbar-brand" href="#">
+                <img src="portfolio-images/Name Logo 2.png" alt="" style="width:100px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="font-family: 'Kanit', sans-serif;">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-content" href="#" role="button"
+                            data-bs-toggle="dropdown">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index2.html">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="index3.html">Photography</a></li>
+                            <li><a class="dropdown-item" href="index7.html">Games</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index4.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index5.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--NAVBAR END-->
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-12 " style="background-color:#ffffff;">
+                <h1 class="heading1">
+                    Games
+                </h1>
+                <h3 class="heading3"> Rock, Paper & Scissors </h3>
+                <p style=" padding-bottom: 50px;
+                justify-content: center;
+                text-align: center;
+                font-weight: bold;
+                color: #000000;">
+                    Add a point if you win, Remove a point if you lose.
+                </p>
+
+            </div>
+        </div>
+
+        <div>
+            <script src="RockPaperScissors.js"></script>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./My portfolio/portfolio.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./My portfolio/portfolio-images/favicon.ico.png">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+        body {
+            background-color: #000000;
+
+        }
+
+     
+    </style>
+
+</head>
+
+
+<body>
+    <!--NAVBAR START-->
+
+    <nav class="navbar navbar-expand-sm bg-black navbar-dark fixed-top">
+
+        <div class="container-fluid px-5 py-2">
+            <a class="navbar-brand" href="#">
+                <img src="./My portfolio/portfolio-images/Name Logo 2.png" alt="" style="width:100px;">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar" style="font-family: 'Kanit', sans-serif;">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#div1">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-content" href="#" role="button"
+                            data-bs-toggle="dropdown">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./My portfolio/index2.html">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="./My portfolio/index3.html">Photography</a></li>
+                            <li><a class="dropdown-item" href="./My portfolio/index7.html">Games</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./My portfolio/index4.html">Blog</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="./My portfolio/index5.html">Contact Me</a>
+                    </li>
+            
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--NAVBAR END-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Scroll Up</button>
+    <script src="./My portfolio/ScrollToTop.js"></script>
+
+
+    <div class="container-fluid mt-3">
+
+        <div class="row">
+            <div class="col-xs-4  col-sm-12 col-lg-5  p-4" style="background-color:#ffffff;">
+                <h1
+                    style="padding-top:400px; justify-content:center; text-align:left; font-weight:bold; color:#000000; font-size:50px ;">
+                    Hi! I'm Karishma Kothari
+                </h1>
+                <h2 style="justify-content:center;; text-align:left; font-weight:bold; color:#000000; font-size:35px ;">
+                    Welcome to my Ikigai!
+                </h2>
+            </div>
+            <div class="col-xs-8 col-sm-12 col-lg-7 p-0 bg-dark text-white">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="fluid" src="./My portfolio/portfolio-images/portrait2.png" alt="" class="d-block"
+                                style="width:100%; height:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="fluid" src="./My portfolio/portfolio-images/carousel1.png" alt="" class="d-block"
+                                style="width:100%;height:100% ">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="fluid" src="./My portfolio/portfolio-images/carousel4.png" alt="" class="d-block"
+                                style="width:100%;height:100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="div1">
+
+            <div class="col-xs-12  col-sm-12 col-lg-12 px-5" style="background-color:#000000;">
+                <h1
+                    style="padding-top:100px;font-size:50px; justify-content:center; text-align:center; font-weight:bold; color:#ffffff;">
+                    About Me
+                </h1>
+                <p
+                    style=" padding-top:30px; padding-left:40px; padding-right:40px;justify-content:center; text-align:center;font-weight:lighter;color:#ffffff;font-size:18px;">
+                    Hello. My name is Karishma Kothari, and I am a student at Atlas Skilltech
+                    University, I am currently studying Communication Design, with a minor in Digital Marketing. I was
+                    born and
+                    raised in Kochi, Kerala and Moved to Mumbai for my studies. My first step into design was with
+                    Photography, I learned how I liked creating and capturing things through Photography. I'm calling my
+                    Portfolio "My Ikigai" because I believe
+                    that design helped me get out of my comfort zone. Though I have much to learn and improve, I'd
+                    like to think creating and visualising is my sense of purpose. </p>
+            </div>
+        </div>
+
+        <h1
+            style="padding-top:90px;padding-bottom:30px; justify-content:center; text-align:center; font-weight:bold; font-size: 50px; color:#ffffff;">
+            A Glimpse Into My Portfolio
+        </h1>
+
+        <!--grid starts here-->
+
+        <div class="row p-5">
+            <div class="column">
+
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/grid 1.png">
+                    <div class="overlay"> Vinyl Cover inspired by the Abstract Expressionism art period</div>
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/grid 2.png">
+                    <div class="overlay"> Redesigned Vinyl Cover for the song "A Sky Full of Stars" by Coldplay </div>
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/KarishmaHKothari_C_Poster 4.jpg">
+                    <div class="overlay"> Poster for Jio Inspired by Bengal Patua art form</div>
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/4952318.jpg">
+                    <div class="overlay"> Vinyl Cover inspired by the Expressionism art period</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/mockup.jpg">
+                    <div class="overlay"> Mock Up of the Vinyl Cover inspired by the Abstract Expressionism art period
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/mock up vinyl.jpg">
+                    <div class="overlay">Mock Up of the redesigned Vinyl Cover for the song "A Sky Full of Stars" </div>
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/KarishmaHKothari_C_Poster 2.jpg">
+                    <div class="overlay"> Poster for Whisper Inspired by Gond Art form</div>
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/mock app 2.jpg">
+                    <div class="overlay"> Stray Animal Foundation of India - Logo Redesign and App Interface Design
+                    </div>
+
+                </div>
+                <div class="container">
+                    <img src="./My portfolio/portfolio-images/final design.jpg">
+                    <div class="overlay"> Vinyl Cover Design for a 70s Music Album </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--grid ends here-->
+
+
+
+
+
+        <footer>
+
+            <div
+                style="font-family: 'Kanit', sans-serif; font-weight:bold; justify-content:center; text-align:center;color:rgb(255, 255, 255); margin-top: 50px; font-size:2vw;">
+                <h> ---- - ---- - ---- K A R I S H M A K O T H A R I ---- - ---- - ---- </h>
+            </div>
+
+
+
+
+        </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  * {box-sizing: border-box;}
+
+  .row {
+    margin: 0px;
+  }
+  
+
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* image */
+  .img {
+
+    width: auto;
+    padding: 20px;
+  }
+  
+  /*  card effect*/
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  .heading1 {padding-top:120px;margin-bottom:150 px; padding-bottom:50px; justify-content:center; text-align:center; font-weight:bold; color:#000000; font-size:40px;}
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    height:auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: #d316cd;
+    color: white;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  div {
+      border-radius: 5px;
+      padding: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
